@@ -1,0 +1,46 @@
+:root{
+
+    --color1: #150ee6;
+    --color2: #040b94;
+    --color3: #020659;
+    --white: #eeeeee;
+    --black: #111111;
+
+    --font-global: "Roboto", sans-serif;
+    --font-titles: "Barlow Condensed", sans-serif;
+    --font-home: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-global);
+}
+
+body{
+    background-color: var(--black);
+}
+
+#main{
+    width: 97.6vw
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;          
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--black);       
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color1);
+    border-radius: 10px;
+    border: 2px solid var(--black);
+}

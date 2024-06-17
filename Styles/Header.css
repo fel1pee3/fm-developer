@@ -1,0 +1,128 @@
+#header {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0 40px;
+    background-color: var(--black);
+    backdrop-filter: blur(5px);
+    transition: all .4s ease;
+}
+
+.logo-felipe {
+    color: var(--white);
+    font-size: 1.7em;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.logo-felipe span{
+    color: var(--color1);
+}
+
+.menu-icon {
+    font-size: 2em;
+    color: var(--white);
+    cursor: pointer;
+    z-index: 11;
+    transition: all ease .4s;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #111111ea;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right .4s ease;
+    z-index: 20;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-link {
+    font-size: 3.3em;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--font-titles);
+    letter-spacing: 1px;
+    transition: all .4s ease;
+}
+
+.button {
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:before {
+    background-color: var(--white);
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    margin-right: 10px;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+}
+
+.button:hover:before {
+    background-color: var(--white);
+    width: 1.2em;
+}
+
+.close-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-right: 40px;
+    font-size: 2em;
+    color: var(--white);
+    cursor: pointer;
+    display: none;
+    transition: all ease .4s;
+}
+
+.navbar.active .close-icon {
+    display: block;
+}
+
+.navbar.active {
+    right: 0;
+}
+
+@media (max-width: 450px){
+
+    #header {
+        padding: 0 20px;
+    }
+    .logo-felipe {
+        font-size: 1.5em;
+    }
+    .close-icon {
+        padding-right: 20px;
+    }
+    .nav-link {
+        font-size: 2.5em;
+    }
+
+}

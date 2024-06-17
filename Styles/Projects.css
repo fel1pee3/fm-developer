@@ -1,0 +1,123 @@
+#projects{
+    width: 100%;
+    padding: 80px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-sec-projects{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 2fr));
+    gap: 50px;
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
+}
+
+.img-project {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s all ease;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+.card:hover .card-content {
+    opacity: 1;
+}
+
+.title-project {
+    font-family: var(--font-titles);
+    font-size: 1.5em;
+}
+
+.txt-project {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.caixa-links-project{
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    background-color: var(--color2);
+    color: var(--white);
+    padding: 7px 12px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+    opacity: 85%;
+    transition: all .3s ease;
+}
+
+.link:hover {
+    color: var(--white);
+    opacity: 100%;
+    transform: scale(1.08);
+}
+
+@media (max-width: 999px){
+
+    
+    #projects{
+        padding: 80px 10%;
+    }
+    .container-sec-projects{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(330px, 2fr));
+        gap: 50px;
+    }
+    
+}
+
+@media (max-width: 450px){
+
+    .container-sec-projects{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 2fr));
+        gap: 50px;
+    }
+    
+}

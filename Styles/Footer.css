@@ -1,0 +1,105 @@
+#footer{
+    width: 100%;
+    padding: 80px 4% 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-footer-infos{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 20px;
+}
+
+.caixa-footer{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-caixa-foot{
+    font-size: 1.6em
+}
+
+.bot-footer {
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    border: none;
+    background: none;
+}
+
+.bot-footer::before {
+    margin-left: auto;
+}
+
+.bot-footer::after, .bot-footer::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--color2);
+    display: block;
+    transition: 0.5s;
+    }
+
+.bot-footer:hover::after, .bot-footer:hover::before {
+    width: 100%;
+}
+
+.caixa-links-felipe-direitos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contato-direitos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixa-footer-cotatos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixa-footer-cotatos i{
+    font-size: 2em;
+    color: var(--white);
+    transition: all ease .4s;
+}
+.caixa-footer-cotatos i:hover{
+    transform: translateY(-10px);
+}
+
+.frase-direitos{
+    color: var(--white);
+}
+
+@media (max-width: 750px) {
+
+    .footer-contato-direitos{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .frase-direitos{
+        font-size: .8em;
+    }
+
+}
