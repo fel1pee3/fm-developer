@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Maia | Developer</title>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <link rel="stylesheet" href="Styles/Global.css">
     <link rel="stylesheet" href="Styles/Header.css">
     <link rel="stylesheet" href="Styles/Home.css">
@@ -12,6 +18,8 @@
     <link rel="stylesheet" href="Styles/Skills.css">
     <link rel="stylesheet" href="Styles/Projects.css">
     <link rel="stylesheet" href="Styles/Footer.css">
+    <link rel="stylesheet" href="Styles/Scroll.css">
+    <link rel="stylesheet" href="Styles/Background.css">
 
     <style>
 
@@ -22,8 +30,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   
     </style>    
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -54,11 +60,12 @@
         </ul>
     </nav>
 
-
     <main id="main">
+        <div id="particles-js"></div>
+
         <section id="home">
-            
-            <div class="container-presentation">
+
+            <div class="container-presentation home-scroll">
                 <p class="presentation p-pt1">Opaa <img src="Images/icons8-hand-peace-100.png" alt="icon"> eu sou o Felipe.</p>
                 <h1 class="presentation p-h1 p-pt2">FRONTEND</h1>
                 <h1 class="presentation p-h1 p-pt3">DEVELOPER</h1>
@@ -75,8 +82,8 @@
 
             <h1 class="section-title">Sobre Mim <span class="traco"></span></h1>
             <div class="caixa-txt-img">
-                <img class="img-eu" src="Images/cbum-image.webp" alt="Dev">
-                <div class="caixa-txt">
+                <img class="img-eu about-scroll" src="Images/cbum-image.webp" alt="Dev">
+                <div class="caixa-txt about-scroll">
                     <h1>"Sempre em busca de novos desafios e aprendizados."</h1>
                     <p>Olá, me chamo Felipe Maia. Sou um desenvolvedor dedicado à inovação e fascinado por tecnologia, atualmente empenhado ao Front-end e trabalhando como freelancer, criando páginas web dinâmicas e responsivas. Com mais de 2 anos de experiência, estou apto a resolver problemas complexos e a criar soluções eficientes e escaláveis.</p>
                     <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS) com o objetivo de expandir e aprimorar meus conhecimentos na área.</p>
@@ -100,54 +107,54 @@
 
             <div class="container-skills">
 
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-react"></i>
                     <p>React</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-js"></i>
                     <p>Java Script</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-html5"></i>
                     <p>HTML5</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-css3-alt"></i>
                     <p>CSS3</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-sass"></i>
                     <p>SASS</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-bootstrap"></i>
                     <p>Bootstrap</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-node"></i>
                     <p>Node JS</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-git-alt"></i>
                     <p>Git</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-github"></i>
                     <p>Github</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-brands fa-figma"></i>
                     <p>Figma</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <div class="caixa-icon-response">
                         <i class="fa-solid fa-display"></i>
                         <i class="fa-solid fa-mobile-screen"></i>
                     </div>
                     <p>Responsividade</p>
                 </div>
-                <div class="caixa-skill">
+                <div class="caixa-skill skill-scroll">
                     <i class="fa-solid fa-pen-ruler"></i>
                     <p>Designer</p>
                 </div>
@@ -162,7 +169,7 @@
 
             <div class="container-sec-projects">
 
-                <div class="card">
+                <div class="card project-scroll">
                     <img class="img-project" src="Images/projeto-bdn.png" alt="image-projeto">
                     <div class="card-content">
                         <h2 class="title-project">Nome Projeto</h2>
@@ -173,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-scroll">
                     <img class="img-project" src="Images/projeto-bdn.png" alt="image-projeto">
                     <div class="card-content">
                         <h2 class="title-project">Nome Projeto</h2>
@@ -184,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-scroll">
                     <img class="img-project" src="Images/projeto-bdn.png" alt="image-projeto">
                     <div class="card-content">
                         <h2 class="title-project">Nome Projeto</h2>
@@ -195,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-scroll">
                     <img class="img-project" src="Images/projeto-bdn.png" alt="image-projeto">
                     <div class="card-content">
                         <h2 class="title-project">Nome Projeto</h2>
@@ -214,39 +221,38 @@
         <footer id="footer">
 
             <div class="container-footer-infos">
-                <div class="caixa-footer">
+                <div class="caixa-footer footer-scroll">
                     <h2 class="title-caixa-foot">Navegação</h2>
                     <a href="#" class="bot-footer">Início</a>
                     <a href="#" class="bot-footer">Sobre Mim</a>
                     <a href="#" class="bot-footer">Skills</a>
                     <a href="#" class="bot-footer">Projetos</a>
                 </div>
-                <div class="caixa-footer">
-                    <h2 class="title-caixa-foot">Hospedagem</h2>
-                    <a href="#" class="bot-footer">Netlify</a>
-                    <a href="#" class="bot-footer">Github</a>
-                </div>
-                <div class="caixa-footer">
-                    <h2 class="title-caixa-foot">Código fonte</h2>
-                    <a href="#" class="bot-footer">Github</a>
-                </div>
-                <div class="caixa-footer">
+                <div class="caixa-footer footer-scroll">
                     <h2 class="title-caixa-foot">Tecnologias</h2>
                     <p class="bot-footer">Java Script</p>
                     <p class="bot-footer">HTML5</p>
                     <p class="bot-footer">CSS3</p>
                 </div>
+                <div class="caixa-footer footer-scroll">
+                    <h2 class="title-caixa-foot">Hospedagem</h2>
+                    <a href="https://fel1pee3.github.io/portifolio-felipemaia/" class="bot-footer">Github</a>
+                </div>
+                <div class="caixa-footer footer-scroll">
+                    <h2 class="title-caixa-foot">Código fonte</h2>
+                    <a href="#" class="bot-footer">Github</a>
+                </div>
             </div>
 
             <div class="footer-contato-direitos">
-                <div class="caixa-footer-cotatos">
+                <div class="caixa-footer-cotatos footer-scroll">
                     <a href="https://www.linkedin.com/in/felipe-maia-386019281/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/fel1pee3" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://www.instagram.com/felipee3_maia/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="mailto:jofelipefm@gmail.com?subject=Email%20referente%20ao%20portifolio%20de%20Felipe%20Maia.%20Escreva%20seu%20assunto%20a%20baixo.&body=Assunto%3A" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                 </div>
-                <p class="frase-direitos">
+                <p class="frase-direitos footer-scroll">
                     © 2024 Felipe Maia. Todos os direitos reservados.
                 </p>
             </div>
@@ -256,8 +262,10 @@
     </main>
 
 
-
-    <script src="Scripts/Header.js"></script>
+<script src="Scripts/Header.js"></script>
+<script src="Scripts/Scroll.js"></script>
+<script src="Scripts/Background.js"></script>
+   
 
 </body>
 </html>
