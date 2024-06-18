@@ -10,6 +10,10 @@
     background-color: var(--black);
     backdrop-filter: blur(5px);
     transition: all .4s ease;
+
+    box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.6);
 }
 
 .logo-felipe {
