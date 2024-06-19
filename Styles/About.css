@@ -77,6 +77,27 @@
     transform: translateY(-10px);
 }
 
+.fa-linkedin:hover{
+    color: #0a78b5;
+}
+.fa-github:hover{
+    color: #c2c2c2;
+}
+.fa-whatsapp:hover{
+    color: #2CD46B;
+}
+.fa-instagram:hover{
+    color: rgb(245, 36, 123);
+}
+.fa-envelope:hover{
+    color: #aa834c;
+}
+.fa-tiktok:hover{
+    color: #2be6df;
+}
+.fa-file-lines:hover{
+    color: #dad8ff;
+}
 @media (max-width: 999px){
 
     .caixa-txt-img{
