@@ -51,10 +51,10 @@
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: opacity 0.3s all ease;
+    transition: opacity .4s all ease;
     padding: 20px;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card:hover .card-content {
@@ -85,7 +85,7 @@
     text-decoration: none;
     transition: color 0.3s;
     opacity: 85%;
-    transition: all .3s ease;
+    transition: all .4s ease;
 }
 
 .link:hover {
@@ -96,10 +96,6 @@
 
 @media (max-width: 999px){
 
-    
-    #projects{
-        padding: 80px 10%;
-    }
     .container-sec-projects{
         width: 100%;
         display: grid;
@@ -118,6 +114,28 @@
         justify-content: center;
         grid-template-columns: repeat(auto-fill, minmax(280px, 2fr));
         gap: 50px;
+    }
+
+    .card-content {
+        padding: 10px;
+        gap: 3px;
+    }
+    
+    .title-project {
+        font-size: 1.1em;
+    }
+    
+    .txt-project {
+        font-size: .7em;
+    }
+    
+    .caixa-links-project{
+        gap: 5px;
+    }
+    
+    .link {
+        padding: 4px 8px;
+        font-size: .4em;
     }
     
 }
