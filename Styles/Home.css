@@ -19,9 +19,8 @@
     transition: all ease .4s;
 }
 
-.p-pt1 img{
-    width: 37px;
-    height: 37px;
+.p-pt1 i{
+    font-size: 1.2em;
     margin: 0 2px;
     transition: all ease .4s;
 }   
@@ -60,9 +59,8 @@
         font-size: 1.5em;
     }
     
-    .p-pt1 img{
-        width: 33px;
-        height: 33px;
+    .p-pt1 i{
+        font-size: 1em;
     }   
     
     .p-h1{
@@ -90,10 +88,9 @@
         font-size: 1.4em;
     }
     
-    .p-pt1 img{
-        width: 30px;
-        height: 30px;
-    }   
+    .p-pt1 i{
+        font-size: .9em;
+    }    
     
     .p-h1{
         line-height: 65px;
