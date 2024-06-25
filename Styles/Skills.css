@@ -9,8 +9,9 @@
 .container-skills{
     width: 100%;
     display: grid;
+    align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 2fr));
     gap: 20px;
     transition: all ease .4s;
 }
