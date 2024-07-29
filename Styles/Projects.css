@@ -78,6 +78,30 @@
 .fa-react:hover{
     color: #66dbfb;
 }
+.fa-sass:hover{
+    color: #cf6c9c;
+}
+.fa-bootstrap:hover{
+    color: #7c18f8;
+}
+.fa-node:hover{
+    color: #87cf30;
+}
+.fa-git-alt:hover{
+    color: #f05539;
+}
+.fa-figma:hover{
+    color: #20befd;
+}
+.fa-display:hover{
+    color: #757575;
+}
+.fa-mobile-screen:hover{
+    color: #757575;
+}
+.fa-pen-ruler:hover{
+    color: #150ee6;
+}
 
 .caixa-bots{
     display: flex;
