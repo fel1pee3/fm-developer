@@ -92,7 +92,7 @@
     color: #aa834c;
 }
 .fa-tiktok:hover{
-    color: #2be6df;
+    text-shadow: red -2px 0, cyan 2px 0;
 }
 .fa-file-lines:hover{
     color: #dad8ff;
